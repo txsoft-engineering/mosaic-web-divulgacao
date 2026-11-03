@@ -6,6 +6,17 @@ O formato segue o [Keep a Changelog](https://keepachangelog.com/pt-BR/1.1.0/) e 
 
 ## [Não publicado]
 
+## [1.0.1] - 2026-11-03
+
+### Corrigido
+
+- Publicação no GitHub Pages: o job de build agora tem permissão de leitura do Pages, que o passo "Configurar o GitHub Pages" exige (#6).
+- Execuções seguidas na `main` não se cancelam mais: um merge novo não interrompe a publicação nem o CI do merge anterior (#6).
+
+### Alterado
+
+- O site passou a ser servido em https://mosaicofy.com, com HTTPS e o domínio verificado na organização. O código já apontava para esse endereço; o que mudou foi a ligação do domínio no GitHub Pages.
+
 ## [1.0.0] - 2026-11-03
 
 Primeira versão do site de pré-lançamento da Mosaicofy.
@@ -26,5 +37,6 @@ Primeira versão do site de pré-lançamento da Mosaicofy.
 - Licença MIT, Código de Conduta, guia de contribuição, política de segurança e este changelog.
 - Modelos de issue e de pull request, CODEOWNERS, `.editorconfig` e `.gitattributes`.
 
-[Não publicado]: https://github.com/txsoft-engineering/mosaic-web-divulgacao/compare/v1.0.0...HEAD
+[Não publicado]: https://github.com/txsoft-engineering/mosaic-web-divulgacao/compare/v1.0.1...HEAD
+[1.0.1]: https://github.com/txsoft-engineering/mosaic-web-divulgacao/compare/v1.0.0...v1.0.1
 [1.0.0]: https://github.com/txsoft-engineering/mosaic-web-divulgacao/releases/tag/v1.0.0

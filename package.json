@@ -1,7 +1,7 @@
 {
   "name": "mosaic-web-divulgacao",
   "private": true,
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Site de pré-lançamento da Mosaicofy (mosaicofy.com): estático, em React, publicado no GitHub Pages.",
   "keywords": [
     "mosaicofy",
