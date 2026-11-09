@@ -56,7 +56,7 @@ export type Desenvolvedor = {
 
 export const desenvolvedores: Desenvolvedor[] = [
   { nome: 'Lucas G. Monte Gomes', usuarioGitHub: 'LucasGMonteGomes' },
-  { nome: 'Gabriel', usuarioGitHub: 'GabrielDS02' },
+  { nome: 'Gabriel da Silva Machado', usuarioGitHub: 'GabrielDS02' },
 ]
 
 export type TelaDaIdeia = 'perfil' | 'sala' | 'trending' | 'leitor'
