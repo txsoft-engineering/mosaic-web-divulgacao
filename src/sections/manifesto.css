@@ -97,12 +97,19 @@
 }
 
 .manifesto__dev-nome {
-  transition: color 0.2s ease;
+  transition:
+    color 0.2s ease,
+    text-decoration-color 0.2s ease;
+  text-decoration-line: underline;
+  /* Sublinhado invisível no estado normal: ocupa o mesmo espaço, então o
+     texto não "pula" quando o hover revela a linha. */
+  text-decoration-color: transparent;
 }
 
 .manifesto__dev:hover .manifesto__dev-nome,
 .manifesto__dev:focus-visible .manifesto__dev-nome {
   color: var(--ceu);
+  text-decoration-color: currentColor;
 }
 
 @media (min-width: 1100px) {
